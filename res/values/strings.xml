@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Andrew Neal -->
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Patterns for Muzei</string>
+
+    <!-- Muzei app -->
+    <string name="muzei_label">Patterns</string>
+    <string name="muzei_desc">Random wallpaper patterns from Colour Lovers</string>
+    <string name="muzei_settings">Settings</string>
+
+    <!--
+    // //////////////////////////////////////////////////////////////////////////
+    // Preferences
+    // //////////////////////////////////////////////////////////////////////////
+    -->
+    <!-- Preference categories -->
+    <string name="pref_category_setup">Setup</string>
+    <string name="pref_category_about">About</string>
+
+    <!-- Update interval -->
+    <string name="pref_update_interval_key">pref_update_interval_key</string>
+    <string name="pref_update_interval">Update interval</string>
+    <string name="pref_update_interval_default">1</string>
+
+    <!-- About -->
+    <string name="pref_about_author_title">Author</string>
+    <string name="pref_about_author_summary">Andrew Neal</string>
+
+</resources>

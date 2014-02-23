@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Andrew Neal -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.seeingpixels.muzei.patterns"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- Jelly Bean - KitKat -->
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="19" />
+
+    <!-- Used to check for a network connection -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Used to access the Internet (image fetching, meta data) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Used to keep the processor from sleeping or screen from dimming -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+
+        <!-- Muzei settings -->
+        <activity
+            android:name="org.seeingpixels.muzei.patterns.app.activity.PreferenceActivity"
+            android:exported="true"
+            android:label="@string/muzei_settings"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
+
+        <!-- Muzei Service -->
+        <service
+            android:name="org.seeingpixels.muzei.patterns.app.PatternsRemoteArtSource"
+            android:description="@string/muzei_desc"
+            android:icon="@drawable/ic_muzei_launcher"
+            android:label="@string/muzei_label"
+            tools:ignore="ExportedService" >
+            <intent-filter>
+                <action android:name="com.google.android.apps.muzei.api.MuzeiArtSource" />
+            </intent-filter>
+
+            <meta-data
+                android:name="settingsActivity"
+                android:value="org.seeingpixels.muzei.patterns.app.activity.PreferenceActivity" />
+        </service>
+    </application>
+
+</manifest>

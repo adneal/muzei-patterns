@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Andrew Neal -->
+<resources>
+
+    <!-- Wallpaper rotation entries -->
+    <string-array name="pref_wallpaper_rotation_entries">
+        <item>Don\'t change wallpaper</item>
+        <item>Every hour</item>
+        <item>Every 3 hours</item>
+        <item>Every 6 hours</item>
+        <item>Every 24 hours</item>
+        <item>Every 3 days</item>
+    </string-array>
+    <!-- Wallpaper rotation values -->
+    <string-array name="pref_wallpaper_rotation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>6</item>
+        <item>24</item>
+        <item>72</item>
+    </string-array>
+
+</resources>

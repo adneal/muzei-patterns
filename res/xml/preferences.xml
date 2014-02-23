@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Andrew Neal -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Setup -->
+    <PreferenceCategory android:title="@string/pref_category_setup" >
+
+        <!-- Wallpaper rotation interval -->
+        <ListPreference
+            android:defaultValue="@string/pref_update_interval_default"
+            android:entries="@array/pref_wallpaper_rotation_entries"
+            android:entryValues="@array/pref_wallpaper_rotation_values"
+            android:key="@string/pref_update_interval_key"
+            android:persistent="true"
+            android:summary="%s"
+            android:title="@string/pref_update_interval" />
+    </PreferenceCategory>
+
+    <!-- About -->
+    <PreferenceCategory android:title="@string/pref_category_about" >
+        <Preference
+            android:selectable="false"
+            android:summary="@string/pref_about_author_summary"
+            android:title="@string/pref_about_author_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
