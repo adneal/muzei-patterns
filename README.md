@@ -1,4 +1,4 @@
-﻿#Patters for Muzei
+﻿#Patterns for Muzei
 
 ## About
 
