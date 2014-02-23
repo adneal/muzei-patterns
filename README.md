@@ -2,7 +2,7 @@
 
 ## About
 
-**[Patterns](http://www.colourlovers.com/patterns) wallpapers for [Muzei](http://get.muzei.co/).**  
+**[Pattern](http://www.colourlovers.com/patterns) wallpapers for [Muzei](http://get.muzei.co/).**  
 
 ## Screenshots
 
