@@ -3,7 +3,7 @@
 <resources>
 
     <!-- App -->
-    <string name="app_name">Patterns for Muzei</string>
+    <string name="app_name">Muzei Patterns</string>
 
     <!-- Muzei app -->
     <string name="muzei_label">Patterns</string>
